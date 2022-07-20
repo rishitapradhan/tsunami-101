@@ -1,0 +1,74 @@
+/* Set page background. */
+body {
+  background-image: url("https://images.livemint.com/img/2022/05/27/1600x900/matt-paul-catalano-0QEG_xOoY7Y-unsplash_1653622598712_1653622605241.jpg"); 
+}
+
+/* General style configurations. */
+div {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.links {
+  background-color: rgba(0, 0, 0, 0.564);
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: blur;
+  font-weight: bold;
+  font-size: 40px;
+  width: 60%;
+  margin: 50px auto;
+  height: 70px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.links:hover {
+  border: 2px solid lightskyblue;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Animation part. */
+.text-animation {
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+  width: 1000px;
+}
+
+.text-animation h1 {
+  margin: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 6em;
+  color: transparent;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5eee58a286681c3123b4f2f0/1592698294369-RDDMSSGNEOOH31SVZWBL/BlackWater_Still.png?format=2500w");
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  background-position: 500px 150px;
+  font-family: arial;
+  opacity: 70%;
+  animation: bloodAnimate 35s linear infinite;
+}
+
+@keyframes bloodAnimate {
+  0% {
+    background-position: left 0px top 0px;
+  }
+  40% {
+    background-position: left 400px top 0px;
+  }
+  60% {
+    background-position: left 500px top 0px;
+  }
+  80% {
+    background-position: left 600px top 0px;
+  }
+  100% {
+    background-position: left 800px top 0px;
+  }
+}
